@@ -5,9 +5,9 @@ import { $ } from 'bun';
 const Config = {
   packageManager: 'bun@1.1.4',
   devDeps: [
-    'eslint',
+    'eslint@^8',
     'prettier',
-    'eslint-config-next',
+    'eslint-config-next@14.1.0',
     'eslint-config-prettier',
     'eslint-plugin-next-on-pages',
     'husky',
